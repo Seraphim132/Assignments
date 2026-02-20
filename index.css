@@ -1,0 +1,67 @@
+h2{
+    text-align: right;
+    font-weight: 100;
+    font-size: medium;
+}
+h3{
+    font-weight: 100;
+    font-size: medium;
+}
+h4{
+    font-weight: 100;
+    text-indent: 40px;
+}
+h1{
+    text-align: center;
+}
+p{
+    text-align: justify;
+    font-weight: 100;
+    font-size: large;
+    text-indent: 20px;
+    line-height: 20px;
+}
+h6{
+    text-align: right;
+    text-decoration: line-through;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.no1{
+    width: 1500px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    background: burlywood;
+    padding: 10px 10px 10px 10px;
+    justify-content: flex-start;
+    align-items: center;
+}
+.link{
+    margin: 10px;
+    word-spacing: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-left: 100px;
+}
+a{
+    margin: 0px 0px 0px 15px;
+    text-decoration: none;
+    color: white;
+}
+img{
+    background: none;
+    margin: 5px;
+}
+.name{
+}
+#Login{
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    align-items: flex-end;
+    color: white;
+    background: rgb(197, 143, 89);
+}

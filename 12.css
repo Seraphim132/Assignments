@@ -1,0 +1,269 @@
+.no1{
+    width: 1500px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    background: rgb(255, 255, 255);
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding: 0px 80px;
+}
+.sel{
+    display: none;
+}
+.link{
+    word-spacing: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-left: 0px;
+}
+.img{
+    margin-bottom: 30px;
+}
+.a{
+    margin: 0px 0px 0px 5px;
+    text-decoration: none;
+    color: purple;
+    text-align: center;
+    margin-right: 0px;
+}
+img{
+    background: none;
+    margin: 5px;
+}
+.tm{
+    display: flex;
+    flex-direction: row;
+}
+.no2{
+    justify-content: flex-end;
+    margin: 0px 400px;
+}
+.index{
+    margin-right: 20px;
+}
+.on{
+    background: purple;
+    padding-left: 70px;
+    animation-name: fadein;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+}
+.li{
+    background: rgb(255, 196, 0);
+    width: 400px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 20px;
+}
+.li>i{
+    font-size: 10px;
+    background: white;
+    border-radius: 100%;
+    padding: 5px;
+    margin: 5px;
+}
+.des{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-left: 90px;
+}
+.rec{
+    background: rgb(255, 196, 0);
+    width: 5px;
+    height: 70px;
+    margin-right: 10px;
+}
+.words{
+    line-height: 5px;
+}
+h2{
+    font-weight: 300;
+}
+.p1{
+    margin-left: 90px;
+    margin-bottom: 5px;
+}
+.p2{
+    color: rgb(255, 0, 0);
+    margin-left: 90px;
+    margin-top: 5px;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    margin-left: 90px;
+    margin-top: 1px;
+}
+.main>form{
+    background: rgba(149, 8, 137, 0.912);
+    padding: 3px 3px 50px 3px;
+}
+.main>form>fieldset{
+    background: white;
+    padding-bottom: 70px;
+}
+.main>form>fieldset>.se{
+    margin-bottom: 20px;
+    width: 350px;
+    height: 20px;
+}
+.main>form>fieldset>.cb{
+    margin-bottom: 20px;
+}
+.main>form>fieldset>button{
+    height: 30px;
+    width: 80px;
+    margin-right: 5px;
+    background: rgb(255, 196, 0);
+    border-radius: 2px;
+}
+.main>form>fieldset>a{
+    text-decoration: none;
+    color: rgb(48, 48, 234);
+}
+.fcmb{
+    width: 450px;
+    height: 350px;
+    margin-left: 20px;
+}
+.sign{
+    background: rgb(255, 235, 238);
+    margin-left: 20px;
+    padding-bottom: 50px;
+}
+.h2{
+    font-weight: 600;
+}
+#i{
+    margin-left: 150px;
+    font-size: 40px;
+}
+.mix{
+    line-height: 0px;
+    display: flex;
+    flex-direction: row;
+}
+.but{
+    background: orange;
+    margin-left: 250px;
+}
+.end{
+    display: flex;
+    flex-direction: row;
+    margin-left: 500px ;
+    margin-top: 20px;
+    box-shadow: 0px 0px 4px;
+    width: 960px;
+    height: 200px;
+}
+.line{
+    background: orange;
+    padding: 30px;
+}
+#nice{
+    margin-left: 20px;
+    font-size: 30px;
+    margin-top: 20px;
+}
+.stuff{
+    margin-top: 3px;
+    color: rgb(69, 119, 255);
+}
+.brand{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 800px;
+    margin-top: 10px;
+}
+.brand>a{
+    color: rgb(69, 119, 255);
+    text-decoration: none;
+}
+.brand>div{
+    margin-left: 190px;
+    font-size: 30px;
+}
+.sen{
+    background: grey;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+@keyframes fadein {
+    0%{
+        color: rgba(255, 255, 255, 0);
+    }
+    100%{
+        color: purple;
+    }
+}
+@media screen and ( max-width:768px) {
+    .des{
+        margin-left: 9px;
+    }
+    .sel{
+        display: flex;
+    }
+    .a{
+        display: none;
+    }
+    .no2{
+        margin: 0px 310px;
+    }
+    .main{
+        flex-direction: column;
+        margin-left: 9px;
+    }
+    .fcmb{
+        margin-left: 2px;
+    }
+    .sign{
+        margin-left: 2px;
+    }
+    #i{
+        margin-left: 110px;
+    }
+    .end{
+        flex-direction: column;
+        margin-left: 30px;
+        width: 200px;
+        height: 600px;
+    }
+    .brand{
+        flex-direction: column;
+        margin-left: 80px;
+        height: 50px;
+        width: 200px;
+        margin-left: 30px;
+    }
+    .brand>div{
+        margin-left: 19px;
+        display: flex;
+        flex-direction: row;
+    }
+    .p{
+        margin-left: 0px;
+    }
+    .p1{
+        margin-left: 9px;
+    }
+    .p2{
+        margin-left: 9px;
+    }
+    .no1{
+        width: 150px;
+        height: 100px;
+        padding: 0px 8px;
+    }
+    .img{
+        margin: 5px 0px;
+    }
+}

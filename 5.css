@@ -1,0 +1,101 @@
+body{
+    background: grey;
+}
+.no1{
+    width: 500px;
+    height: 500px;
+    background: white;
+    border-radius: 100%;
+    border: 5px solid black;
+    margin: 20px auto;
+}
+.no2{
+    width: 400px;
+    height: 400px;
+    background: rgb(0, 0, 0);
+    border-radius: 100%;
+    border: 5px solid black;
+    margin: 50px auto;
+}
+.no3{
+    width: 300px;
+    height: 300px;
+    background: rgb(15, 18, 222);
+    border-radius: 100%;
+    border: 5px solid black;
+    margin: 50px auto;
+}
+.no4{
+    width: 200px;
+    height: 200px;
+    background: rgb(173, 18, 18);
+    border-radius: 100%;
+    border: 2px solid black;
+    margin: 50px auto;
+}
+.no5{
+    width: 100px;
+    height: 100px;
+    background: rgb(230, 233, 35);
+    border-radius: 100%;
+    border: 2px solid black;
+    margin: 50px auto;
+}
+.text{
+    width: fit-content;
+    margin: 10px auto;
+}
+.whatsapp{
+    position: fixed;
+    bottom: 60px;
+    right: 50px;
+}
+#text{
+    width: fit-content;
+    margin: 20px auto;
+    text-align: justify;
+}
+h3{
+    text-align: center;
+}
+h4{
+    text-align: center;
+}
+.no11{
+    width: 1500px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    background: burlywood;
+    padding: 10px 10px 10px 10px;
+    justify-content: flex-start;
+    align-items: center;
+}
+.link{
+    margin: 10px;
+    word-spacing: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-left: 100px;
+}
+.ab{
+    margin: 0px 0px 0px 15px;
+    text-decoration: none;
+    color: white;
+}
+.img{
+    background: none;
+    margin: 5px;
+}
+.name{
+}
+#Login{
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    align-items: flex-end;
+    color: white;
+    background: rgb(197, 143, 89);
+}
