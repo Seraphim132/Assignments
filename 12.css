@@ -35,7 +35,6 @@ img{
 .tm{
     display: flex;
     flex-direction: row;
-    align-items: center;
 }
 .no2{
     justify-content: flex-end;
